@@ -1,0 +1,11 @@
+# Ignoruoti visus Qemu virtualius diskus ir laikinaja atminti
+*.qcow2
+*.img
+/project-files/qemu/*/hda_disk.qcow2
+/project-files/qemu/*/hdb_disk.qcow2
+/project-files/qemu/*/.qemu/
+
+# Bendri GNS3 laikinieji failai
+*.snapshots
+.DS_Store
+Thumbs.db
